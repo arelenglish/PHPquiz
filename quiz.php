@@ -21,7 +21,7 @@
 				</tr>
 			</table>     
 				
-		<form action="?page_id=2" method="post" id="quiz">
+		<form action="#" method="post" id="quiz">
 			<div class="questions" id="quiz_title">
 		        <label>Questions</label>
 			</div>
@@ -211,16 +211,16 @@
 		    $answer3 = $_POST['question-3-answers'];
 		    $answer4 = $_POST['question-4-answers'];
 		    $answer5 = $_POST['question-5-answers'];
-			$answer6 = $_POST['question-1-answers'];
-		    $answer7 = $_POST['question-2-answers'];
-		    $answer8 = $_POST['question-3-answers'];
-		    $answer9 = $_POST['question-4-answers'];
-		    $answer10 = $_POST['question-5-answers'];
-			$answer11 = $_POST['question-1-answers'];
-		    $answer12 = $_POST['question-2-answers'];
-		    $answer13 = $_POST['question-3-answers'];
-		    $answer14 = $_POST['question-4-answers'];
-		    $answer15 = $_POST['question-5-answers'];
+			$answer6 = $_POST['question-6-answers'];
+		    $answer7 = $_POST['question-7-answers'];
+		    $answer8 = $_POST['question-8-answers'];
+		    $answer9 = $_POST['question-9-answers'];
+		    $answer10 = $_POST['question-10-answers'];
+			$answer11 = $_POST['question-11-answers'];
+		    $answer12 = $_POST['question-12-answers'];
+		    $answer13 = $_POST['question-13-answers'];
+		    $answer14 = $_POST['question-14-answers'];
+		    $answer15 = $_POST['question-15-answers'];
 
 		    $result = 0;
 
