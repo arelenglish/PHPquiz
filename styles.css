@@ -1,0 +1,36 @@
+.quiz_guide {
+	text-align: center;
+}
+
+.quiz {
+	width: 100%;
+	height: auto;
+}
+
+#quiz_title {
+	letter-spacing: 6px;
+	font-weight: bold;
+}
+
+.questions {
+	width: 71%;
+    float: left;
+	display: inline-block;
+	position: relative;
+	padding: 10px 0 10px 0;
+}
+
+.answers {
+	width: 25%;
+    float: right;
+	display: inline-block;
+	position: relative;
+	padding: 10px 0 10px 0;
+}
+
+.submit_button {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
