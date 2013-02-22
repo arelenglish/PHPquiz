@@ -316,7 +316,8 @@
 			if ($answer15 == "6") { $result = i + 6; }
 		     $result=array(0=> "$answer1", 1=> "$answer2", 2=> "$answer3", 3=> "$answer4", 4=> "$answer5", 5=> "$answer6", 6=> "$answer7", 7=> "$answer8", 8=> "$answer9", 9=> "$answer10", 10=> "$answer11", 11=> "$answer12", 12=> "$answer13", 13=> "$answer14", 14=> "$answer15"); 
 	
-	echo "Your score is: "; echo array_sum($result);
+			echo "Your score is: "; echo array_sum($result)/count(array_filter($result));
+				?>
 ?>
 
 		</div>
