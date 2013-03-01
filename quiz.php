@@ -224,101 +224,11 @@
 
 		    $result = 0;
 
-		    if ($answer1 == "1") { $result++; }
-			if ($answer1 == "2") { $result = i + 2; }
-			if ($answer1 == "3") { $result = i + 3; }
-			if ($answer1 == "4") { $result = i + 4; }
-			if ($answer1 == "5") { $result = i + 5; }
-			if ($answer1 == "6") { $result = i + 6; }
-		    if ($answer2 == "1") { $result++; }
-		    if ($answer2 == "2") { $result = i + 2; }
-		    if ($answer2 == "3") { $result = i + 3; }
-			if ($answer2 == "4") { $result = i + 4; }
-			if ($answer2 == "5") { $result = i + 5; }
-			if ($answer2 == "6") { $result = i + 6; }
-			if ($answer3 == "1") { $result++; }
-		    if ($answer3 == "2") { $result = i + 2; }
-		    if ($answer3 == "3") { $result = i + 3; }
-			if ($answer3 == "4") { $result = i + 4; }
-			if ($answer3 == "5") { $result = i + 5; }
-			if ($answer3 == "6") { $result = i + 6; }
-			if ($answer4 == "1") { $result++; }
-		    if ($answer4 == "2") { $result = i + 2; }
-		    if ($answer4 == "3") { $result = i + 3; }
-			if ($answer4 == "4") { $result = i + 4; }
-			if ($answer4 == "5") { $result = i + 5; }
-			if ($answer4 == "6") { $result = i + 6; }
-			if ($answer5 == "1") { $result++; }
-		    if ($answer5 == "2") { $result = i + 2; }
-		    if ($answer5 == "3") { $result = i + 3; }
-			if ($answer5 == "4") { $result = i + 4; }
-			if ($answer5 == "5") { $result = i + 5; }
-			if ($answer5 == "6") { $result = i + 6; }
-			if ($answer6 == "1") { $result++; }
-		    if ($answer6 == "2") { $result = i + 2; }
-		    if ($answer6 == "3") { $result = i + 3; }
-			if ($answer6 == "4") { $result = i + 4; }
-			if ($answer6 == "5") { $result = i + 5; }
-			if ($answer6 == "6") { $result = i + 6; }
-			if ($answer7 == "1") { $result++; }
-		    if ($answer7 == "2") { $result = i + 2; }
-		    if ($answer7 == "3") { $result = i + 3; }
-			if ($answer7 == "4") { $result = i + 4; }
-			if ($answer7 == "5") { $result = i + 5; }
-			if ($answer7 == "6") { $result = i + 6; }
-			if ($answer8 == "1") { $result++; }
-		    if ($answer8 == "2") { $result = i + 2; }
-		    if ($answer8 == "3") { $result = i + 3; }
-			if ($answer8 == "4") { $result = i + 4; }
-			if ($answer8 == "5") { $result = i + 5; }
-			if ($answer8 == "6") { $result = i + 6; }
-			if ($answer9 == "1") { $result++; }
-		    if ($answer9 == "2") { $result = i + 2; }
-		    if ($answer9 == "3") { $result = i + 3; }
-			if ($answer9 == "4") { $result = i + 4; }
-			if ($answer9 == "5") { $result = i + 5; }
-			if ($answer9 == "6") { $result = i + 6; }
-			if ($answer10 == "1") { $result++; }
-		    if ($answer10 == "2") { $result = i + 2; }
-		    if ($answer10 == "3") { $result = i + 3; }
-			if ($answer10 == "4") { $result = i + 4; }
-			if ($answer10 == "5") { $result = i + 5; }
-			if ($answer10 == "6") { $result = i + 6; }
-			if ($answer11 == "1") { $result++; }
-		    if ($answer11 == "2") { $result = i + 2; }
-		    if ($answer11 == "3") { $result = i + 3; }
-			if ($answer11 == "4") { $result = i + 4; }
-			if ($answer11 == "5") { $result = i + 5; }
-			if ($answer11 == "6") { $result = i + 6; }
-			if ($answer12 == "1") { $result++; }
-		    if ($answer12 == "2") { $result = i + 2; }
-		    if ($answer12 == "3") { $result = i + 3; }
-			if ($answer12 == "4") { $result = i + 4; }
-			if ($answer12 == "5") { $result = i + 5; }
-			if ($answer12 == "6") { $result = i + 6; }
-			if ($answer13 == "1") { $result++; }
-		    if ($answer13 == "2") { $result = i + 2; }
-		    if ($answer13 == "3") { $result = i + 3; }
-			if ($answer13 == "4") { $result = i + 4; }
-			if ($answer13 == "5") { $result = i + 5; }
-			if ($answer13 == "6") { $result = i + 6; }
-			if ($answer14 == "1") { $result++; }
-		    if ($answer14 == "2") { $result = i + 2; }
-		    if ($answer14 == "3") { $result = i + 3; }
-			if ($answer14 == "4") { $result = i + 4; }
-			if ($answer14 == "5") { $result = i + 5; }
-			if ($answer14 == "6") { $result = i + 6; }
-			if ($answer15 == "1") { $result++; }
-		    if ($answer15 == "2") { $result = i + 2; }
-		    if ($answer15 == "3") { $result = i + 3; }
-			if ($answer15 == "4") { $result = i + 4; }
-			if ($answer15 == "5") { $result = i + 5; }
-			if ($answer15 == "6") { $result = i + 6; }
-		     $result=array(0=> "$answer1", 1=> "$answer2", 2=> "$answer3", 3=> "$answer4", 4=> "$answer5", 5=> "$answer6", 6=> "$answer7", 7=> "$answer8", 8=> "$answer9", 9=> "$answer10", 10=> "$answer11", 11=> "$answer12", 12=> "$answer13", 13=> "$answer14", 14=> "$answer15"); 
-	
-			echo "Your score is: "; echo array_sum($result)/count(array_filter($result));
-				?>
-?>
-
-		</div>
-		</section><!-- END QUIZ -->
+		     $a=array(0=> "$answer1", 1=> "$answer2", 2=> "$answer3", 3=> "$answer4", 4=> "$answer5", 5=> "$answer6", 6=> "$answer7", 7=> "$answer8", 8=> "$answer9", 9=> "$answer10", 10=> "$answer11", 11=> "$answer12", 12=> "$answer13", 13=> "$answer14", 14=> "$answer15"); 
+	                              
+				$result = array_sum($a)/count(array_filter($a));
+				echo "Your score is: "; echo round($result, 1);                
+?>                                
+                                  
+		</div>                    
+		</section><!-- END QUIZ - ->
