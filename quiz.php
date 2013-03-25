@@ -206,7 +206,39 @@
 		<div class="submit_button">
 		<?php
 
-		    $answer1 = $_POST['question-1-answers'];
+    		$filled = true;
+			$required = array("question-1-answers",
+							  "question-2-answers",
+							  "question-3-answers",
+							  "question-4-answers",
+							  "question-5-answers",
+							  "question-6-answers",
+							  "question-7-answers",
+							  "question-8-answers",
+							  "question-9-answers",
+							  "question-10-answers",
+							  "question-11-answers",
+							  "question-12-answers",
+							  "question-13-answers",
+							  "question-14-answers",
+							  "question-15-answers",); //all the required fields
+
+			//Cycle through each field and make sure its filled
+
+			foreach ($required as &$value) {
+			    if($_POST[$value]=="")
+				{
+				$filled = false;
+				}
+			}
+
+			//If there are any fields not filled out, send the user back to the form
+			if ($filled == false){
+			}
+
+			else {
+       
+			$answer1 = $_POST['question-1-answers'];
 		    $answer2 = $_POST['question-2-answers'];
 		    $answer3 = $_POST['question-3-answers'];
 		    $answer4 = $_POST['question-4-answers'];
@@ -222,13 +254,38 @@
 		    $answer14 = $_POST['question-14-answers'];
 		    $answer15 = $_POST['question-15-answers'];
 
-		    $result = 0;
+		   	$result = 0;
 
-		     $a=array(0=> "$answer1", 1=> "$answer2", 2=> "$answer3", 3=> "$answer4", 4=> "$answer5", 5=> "$answer6", 6=> "$answer7", 7=> "$answer8", 8=> "$answer9", 9=> "$answer10", 10=> "$answer11", 11=> "$answer12", 12=> "$answer13", 13=> "$answer14", 14=> "$answer15"); 
-	                              
+		     $a =array( 0=> "$answer1", 1=> "$answer2", 2=> "$answer3", 3=> "$answer4", 4=> "$answer5", 5=> "$answer6", 6=> "$answer7", 7=> "$answer8", 8=> "$answer9", 9=> "$answer10", 10=> "$answer11", 11=> "$answer12", 12=> "$answer13", 13=> "$answer14", 14=> "$answer15");
+
+				if(isset($_GET['error'])){
+				    echo "Sorry, but the form was not properly filled out.";
+				}
+
+			if (count(array_filter($a)) > 0){
 				$result = array_sum($a)/count(array_filter($a));
-				echo "Your score is: "; echo round($result, 1);                
-?>                                
+				$sum_result = array_sum($a);
+		}
+		}
+
+		?>
+		<div class="quiz-results">
+			<p>
+			<?php 
+			if ($filled == false) { 
+				echo 'Sorry, you need to answer every question. <a href="javascript:javascript:history.go(-1)">Please finish your quiz</a>'; 
+			} else { 
+				echo "Your average score is: <strong>"; echo round($result, 1); echo "</strong>";
+			} 
+			?>
+			<br/><br/>
+			<?php 
+			if ($filled == false) { 
+				echo ""; 
+			} else { 
+				echo "Your total score is: <strong>"; echo $sum_result; echo "</strong>";
+			} 
+			?> 
                                   
 		</div>                    
 		</section><!-- END QUIZ - ->
